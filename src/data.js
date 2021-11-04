@@ -1,7 +1,7 @@
 export default [
   {
     id: "100",
-    title: "Conjunto de Algodón Tallas 1-2-4-6 Colores: Blanco-Verde-Amarillo",
+    title: "Conjunto de Algodón Tallas 1-2-4-6 Varios Colores",
     price: 6.00,
     offerPrice: 5.00,
     stock: 12,
@@ -10,7 +10,7 @@ export default [
   },
   {
     id: "101",
-    title: "Polo Algodón Manga Larga Tallas: 1-2-4-6 Colores Varios",
+    title: "Polo Algodón Manga Larga Tallas: 1-2-4-6 Varios Colores",
     price: 4.00,
     offerPrice: 3.00,
     stock: 12,
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: "102",
-    title: "Polo Algodón Manga Corta Tallas: 1-2-4-6 Colores Varios",
+    title: "Polo Algodón Manga Corta Tallas: 1-2-4-6 Varios Colores",
     price: 4.00,
     offerPrice: 3.00,
     stock: 12,
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: "103",
-    title: "Pantalon de Algodón Tallas 1-2-4-6",
+    title: "Pantalon de Algodón Tallas 1-2-4-6 Varios Colores",
     price: 4.00,
     offerPrice: 3.00,
     stock: 12,
