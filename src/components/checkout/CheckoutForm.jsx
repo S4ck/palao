@@ -108,10 +108,10 @@ function CheckoutForm() {
                   ref={register(validations.city)}
                   isInvalid={errors.city ? true : false}
                 >
-                  <option value="Carquín"> Carquín </option>
-                  <option value="Huacho"> Huacho </option>
-                  <option value="Hualmay"> Hualmay </option>
-                  <option value="Huaura"> Huaura </option>
+                  <option value="Lima Norte"> Lima Norte </option>
+                  <option value="Lima Centro"> Lima Centro </option>
+                  <option value="Lima Sur"> Lima Sur </option>
+                  <option value="Provincias"> Nacional </option>
                 </Select>
               </InputGroup>
               {errors.city && (
@@ -124,16 +124,16 @@ function CheckoutForm() {
                 <InputLeftElement children={<PseudoBox as={BiTime} size="24px" color="bluex.400" />} />
                 <Select
                   variant="filled"
-                  placeholder="-- Elije un Horario --"
+                  placeholder="-- Elije un Horario de Entrega --"
                   pl="40px"
                   name="schedule"
                   ref={register(validations.schedule)}
                   isInvalid={errors.schedule ? true : false}
                 >
-                  <option value="Desayuno"> Desayuno 7:00 - 10:00 am </option>
-                  <option value="Almuerzo"> Almuerzo 12:00 - 2:00 pm </option>
-                  <option value="Lonche"> Lonche 4:00 - 6:00 pm </option>
-                  <option value="Cena"> Cena 7:00 - 10:00 pm </option>
+                  <option value="1ER Turno"> 1ER Turno 8:00 - 12:00 am </option>
+                  <option value="2DO Turno"> 2DO Turno 12:00 - 4:00 pm </option>
+                  <option value="3ER Turno"> 3ER Turno 4:00 - 7:00 pm </option>
+                  <option value="Envio a Nivel Nacional"> Envios a Nivel Nacional </option>
                 </Select>
               </InputGroup>
               {errors.schedule && (
