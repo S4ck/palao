@@ -11,9 +11,9 @@ function CartList() {
       <Alert status="info" variant="solid" flexDirection="column" justifyContent="center" textAlign="center" height="200px" mt="8">
         <AlertIcon size="40px" mr={0} />
         <AlertTitle mt={4} mb={1} fontSize="lg">
-          No se te antoja comer!
+          Siempre con las Ultimas Novedades!
         </AlertTitle>
-        <AlertDescription maxWidth="sm">A esta hora sabe bien un rico Ceviche Mixto..¡¡</AlertDescription>
+        <AlertDescription maxWidth="sm">Ofertas Increibles en todos nuestros Productos..¡¡</AlertDescription>
       </Alert>
     );
   }
