@@ -130,9 +130,9 @@ function CheckoutForm() {
                   ref={register(validations.schedule)}
                   isInvalid={errors.schedule ? true : false}
                 >
-                  <option value="1ER Turno"> 1ER Turno 8:00 - 12:00 am </option>
-                  <option value="2DO Turno"> 2DO Turno 12:00 - 4:00 pm </option>
-                  <option value="3ER Turno"> 3ER Turno 4:00 - 7:00 pm </option>
+                  <option value="1er Turno"> 1er Turno 8:00 - 12:00 am </option>
+                  <option value="2do Turno"> 2do Turno 12:00 - 4:00 pm </option>
+                  <option value="3er Turno"> 3er Turno 4:00 - 7:00 pm </option>
                   <option value="Envio a Nivel Nacional"> Envios a Nivel Nacional </option>
                 </Select>
               </InputGroup>
