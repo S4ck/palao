@@ -33,15 +33,15 @@ export const getFormValidations = () => {
         message: "Phone is required",
       },
       maxLength: {
-        value: 10,
-        message: "Max Length 10 chars",
+        value: 12,
+        message: "Max Length 12 chars",
       },
       minLength: {
         value: 7,
         message: "Min Length 7 chars",
       },
       pattern: {
-        value: /^[0-9]{7,10}$/,
+        value: /^[0-9]{7,12}$/,
         message: "Icorrect Phone",
       },
     },
