@@ -69,7 +69,7 @@ export default [
     price: 1.00,
     offerPrice: null,
     stock: 12,
-    img: "gelatina.jpg",
+    img: "gelatinas.jpg",
     category: "otros",
   },
   {
